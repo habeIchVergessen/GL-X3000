@@ -11,7 +11,7 @@
 
 ### extract to sd card
 * cd /tmp/mountd/disk1_part1
-* tar xvfz <name>.tgz
+* tar xvzf <name>.tgz
 * cd
 * ln -s /tmp/mountd/disk1_part1/scripts scripts
 ### check config
