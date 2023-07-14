@@ -6,12 +6,12 @@ monitor gpsd, gpxlogger
 
 * download GL-X3000 gpx.tgz
 
-** extract to sd card
-*** cd /tmp/mountd/disk1_part1
-*** tar xvfz <name>.tgz
-*** cd
-*** ln -s /tmp/mountd/disk1_part1/scripts scripts
-** check config
+### extract to sd card
+* cd /tmp/mountd/disk1_part1
+* tar xvfz <name>.tgz
+* cd
+* ln -s /tmp/mountd/disk1_part1/scripts scripts
+### check config
 *** ./scripts/config.sh
 *** install missing packages
 **** opkg install <list of packages from output>
