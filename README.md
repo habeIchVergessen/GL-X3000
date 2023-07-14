@@ -27,7 +27,7 @@ monitor gpsd, gpxlogger
 * output like this should shown: 05.07.2023 11:29.00 CEST: starting gpxlogger
 ### additional tests
 * ./scripts/gpx-parse.php gpxlog.gpx
-* web-gui (http://<your router name here>/gps/) should show gpxlog.gpx
+* web-gui (http://[your router name here]/gps/) should show gpxlog.gpx
 ## configure cron
 * copy line 1 from /tmp/mountd/disk1_part1/.cron/crontab
 * crontab -e
