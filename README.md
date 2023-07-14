@@ -42,7 +42,7 @@
 ## sms support
 * send "Report GPS-Position" to GL-X3000 (exact typing pls)
 ### extract the phone number of incoming message
-* find /etc/spool/sms/incoming/ -type f -exec grep -iE "^from: " {} \;
+* find /etc/spool/sms/incoming/ -type f -exec grep -iE "^from: " {} \\;
 * pick your number and add to /tmp/mountd/disk1_part1/scripts/tools/sms-check.masters
 + the message should be answered when cron job runs
 ## upload gpx-track's
