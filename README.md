@@ -14,10 +14,10 @@ monitor gpsd, gpxlogger
 ### check config
 * ./scripts/config.sh
 #### install missing packages
-* opkg install <list of packages from output>
-### copy/link files listed above
+* opkg install [list of packages from output]
+#### copy/link files listed above
 * ln -s /tmp/mountd/disk1_part1/.config/etc/nginx/gl-conf.d/service-gps.conf /etc/nginx/gl-conf.d/service-gps.conf
-### check uci settings (/tmp/mountd/disk1_part1/.uci)
+#### check uci settings (/tmp/mountd/disk1_part1/.uci)
 * uci show gpsd
 * compare output off command with file gpsd.uci (gpsd.core.parameters needs to be added)
 * restart gpsd
