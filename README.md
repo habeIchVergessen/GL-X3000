@@ -5,6 +5,7 @@ monitor gpsd, gpxlogger
 ## Configuration - First use
 
 * download GL-X3000 gpx.tgz
+
 ** extract to sd card
 *** cd /tmp/mountd/disk1_part1
 *** tar xvfz <name>.tgz
