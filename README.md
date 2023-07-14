@@ -1,9 +1,9 @@
 # GL-X3000
 
-monitor gpsd, gpxlogger
-serve gpx-track's on website
-report GPS-position via sms (poll incoming messages and reply to accepted masters)
-upload gpx-track's to remote website
+* monitor gpsd, gpxlogger
+* serve gpx-track's on website
+* report GPS-position via sms (poll incoming messages and reply to accepted masters)
+* upload gpx-track's to remote website
 
 ## Configuration - First use
 
