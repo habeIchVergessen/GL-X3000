@@ -55,3 +55,6 @@
 * ./scripts/gpx-upload.php
 ### configure cron
 * copy line #2 to crontab
+
+## simple WebGUI
+![simple WebGUI](relative%20Web.png?raw=true "WebGUI")
