@@ -11,7 +11,7 @@
 
 ### extract to sd card
 * cd /tmp/mountd/disk1_part1
-* tar xvzf <name>.tgz
+* tar xvzf GL-X3000\\ gpx.tgz
 * cd
 * ln -s /tmp/mountd/disk1_part1/scripts scripts
 ### check config
@@ -37,7 +37,7 @@
 * add copied line and remove #
 ## more testing
 * /etc/init.d/gpsd restart
-* logread -e gpx && date
+* run logread from above
 * repeat until cron starts gpxlogger-cron.sh
 ## sms support
 * send "Report GPS-Position" to GL-X3000 (exact typing pls)
