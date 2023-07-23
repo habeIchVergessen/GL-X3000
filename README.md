@@ -64,11 +64,12 @@
 * create scripts/certs
 * [recipient].cer (by now only one is supported; if present, than the recipient is extract from this file)
 * signer.pem and signer_key.pem (with -nodes!)
-### testting
+### testing
 * ./scripts/email.sh [your e-mail addresse]
 ## upgrade source
 * download tar ball
 * extract changed files
-* echo -e ".www/gps/[RL]*Config.php\nscripts/tools/sms-check.masters" | tar xvzf GL-X3000\\ gpx.tgz -X -
+
+echo -e ".www/gps/[RL]*Config.php\nscripts/tools/sms-check.masters" | tar xvzf GL-X3000\\ gpx.tgz -X -
 ## simple WebGUI
 ![simple WebGUI](Web.png?raw=true "WebGUI")
