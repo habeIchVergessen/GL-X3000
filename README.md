@@ -69,6 +69,6 @@
 ## upgrade source
 * download tar ball
 * extract changed files
-echo -e ".www/gps/[RL]*Config.php\nscripts/tools/sms-check.masters" | tar xvzf GL-X3000\\ gpx.tgz -X -
+* echo -e ".www/gps/[RL]*Config.php\nscripts/tools/sms-check.masters" | tar xvzf GL-X3000\\ gpx.tgz -X -
 ## simple WebGUI
 ![simple WebGUI](Web.png?raw=true "WebGUI")
