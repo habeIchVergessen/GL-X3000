@@ -20,6 +20,7 @@
 * opkg install [list of packages from output]
 #### copy/link all files listed above
 * ln -s /tmp/mountd/disk1_part1/.config/etc/nginx/gl-conf.d/service-gps.conf /etc/nginx/gl-conf.d/service-gps.conf
+* rerun config.sh and check column cmp shows ok for each file 
 #### check uci settings (/tmp/mountd/disk1_part1/.uci)
 * uci show gpsd
 * compare output off command with file gpsd.uci (gpsd.core.parameters needs to be added)
