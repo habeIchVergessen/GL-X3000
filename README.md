@@ -18,13 +18,14 @@
 * ./scripts/config.sh
 #### install missing packages
 * opkg install [list of packages from output]
-#### copy/link files listed above
+#### copy/link all files listed above
 * ln -s /tmp/mountd/disk1_part1/.config/etc/nginx/gl-conf.d/service-gps.conf /etc/nginx/gl-conf.d/service-gps.conf
-* reload nginx config (nginx -s reload)
 #### check uci settings (/tmp/mountd/disk1_part1/.uci)
 * uci show gpsd
 * compare output off command with file gpsd.uci (gpsd.core.parameters needs to be added)
 * restart gpsd
+#### reload web server config
+* nginx -s reload
 ## first run
 * ./scripts/gpxlogger-cron.sh
 * logread -e gpx && date
