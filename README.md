@@ -9,7 +9,7 @@
 
 * download GL-X3000 gpx.tgz
 
-### extract to sd card
+### extract to sd card (formatted as ext2/3/4)
 * cd /tmp/mountd/disk1_part1
 * tar xvzf GL-X3000\\ gpx.tgz
 * cd
